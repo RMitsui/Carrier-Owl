@@ -1,11 +1,15 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.IR  OR cat:cs.SE'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        bug localization: 5
+        feature location: 3
+        cross-language: 3
+        bug reports: 2
+        bug: 1
+        deep: -3
+        machine learning: -3
 
 # 通知の閾値
 score_threshold: 0
